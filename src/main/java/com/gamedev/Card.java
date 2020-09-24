@@ -3,9 +3,6 @@ package com.gamedev;
 import java.awt.image.BufferedImage;
 
 public class Card {
-
-
-
     enum Suits {
         DIAMONDS,
         SPIKES,
@@ -27,7 +24,6 @@ public class Card {
 
     Suits suit;
     Deck deck;
-
     static int TestHight = 615;
 
     public Card (BufferedImage pixel) {
